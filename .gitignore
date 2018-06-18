@@ -44,5 +44,4 @@ captures/
 # MAC file system
 *.DS_Store
 
-# Fabric Analytics property
-app/fabric.properties
+google-services.json
