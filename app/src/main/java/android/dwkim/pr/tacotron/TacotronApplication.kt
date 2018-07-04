@@ -8,7 +8,7 @@ class TacotronApplication: Application() {
     override fun onCreate() {
         super.onCreate()
 
-        Log.d("debug","application start")
-        FirebaseInstanceId.getInstance().token
+        val token = FirebaseInstanceId.getInstance().token
+        Log.d("debug", "launch token = "+token)
     }
 }

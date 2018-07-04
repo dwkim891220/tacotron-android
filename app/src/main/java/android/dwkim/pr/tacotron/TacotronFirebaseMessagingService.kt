@@ -6,6 +6,6 @@ import com.google.firebase.messaging.RemoteMessage
 
 class TacotronFirebaseMessagingService: FirebaseMessagingService() {
     override fun onMessageReceived(remoteMessage: RemoteMessage?) {
-        Log.d("debug","call onMessageReceived")
+        Log.d("debug","call onMessageReceived = "+remoteMessage.toString())
     }
 }
